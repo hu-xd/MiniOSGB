@@ -10,7 +10,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-
+  workflow_dispatch:
+  
 env:
   # Path to the solution file relative to the root of the project.
   SOLUTION_FILE_PATH: ./src/miniosgb.sln
